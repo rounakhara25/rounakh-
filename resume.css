@@ -1,0 +1,82 @@
+
+/* ... Existing CSS styles ... */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Resume.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color:rosybrown;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color:palevioletred;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label,
+input,
+textarea {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: aqua;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.resume-output {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.resume-output h2 {
+    color: #333;
+}
+
+.resume-output h3 {
+    color: palevioletred;
+}
+
+.resume-output p {
+    margin-bottom: 10px;
+}
+
+#downloadButton {
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
